@@ -6,14 +6,14 @@ import API from "../utils/API"
 export default function Search() {
 
     // ZOMATO API CALL
-    //const [food, setFood] = useState([])
-    // function loadRestaurants() {
-    //     API.getRestaurants()
-    //       .then(res => 
-    //         setFood(res.data)
-    //       )};
-    //   loadRestaurants();
-        //console.log(food);
+    const [food, setFood] = useState([])
+    function loadRestaurants() {
+        API.getRestaurants()
+          .then(res => 
+            setFood(res.data)
+          )};
+      loadRestaurants();
+        console.log(food);
 
     return (
         <>
