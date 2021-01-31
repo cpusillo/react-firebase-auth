@@ -1,8 +1,20 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Container, Card, Button, InputGroup, FormControl } from 'react-bootstrap'
 import { FaSearchLocation } from 'react-icons/fa'
+import API from "../utils/API"
 
 export default function Search() {
+
+    // ZOMATO API CALL
+    //const [food, setFood] = useState([])
+    // function loadRestaurants() {
+    //     API.getRestaurants()
+    //       .then(res => 
+    //         setFood(res.data)
+    //       )};
+    //   loadRestaurants();
+        //console.log(food);
+
     return (
         <>
             <Container>
