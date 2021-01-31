@@ -1,18 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-// Depending on the current path, this component sets the "active" class on the appropriate navigation link item
+// Depending on the current path, this component sets the "active" className on the appropriate navigation link item
 function Navbar() {
   return (  
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav className="navbar navbar-expand-lg navbar-light bg-light">
   <Link className="navbar-brand" href="#">AXOLOTL</Link>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+  <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span className="navbar-toggler-icon"></span>
   </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
+  <div className="collapse navbar-collapse" id="navbarNav">
     <ul className="navbar-nav">
-    <li class="nav-item">
+    <li className="nav-item">
               <Link
               to="/search"
               className={
@@ -25,8 +25,8 @@ function Navbar() {
             </Link>
       </li>
     </ul>
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item">
+    <ul className="navbar-nav ml-auto">
+      <li className="nav-item">
       <Link
               to="/login"
               className={
@@ -38,7 +38,7 @@ function Navbar() {
               Login
             </Link>
       </li>
-      <li class="nav-item">
+      <li className="nav-item">
               <Link
               to="/signup"
               className={

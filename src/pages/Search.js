@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Card, Button, InputGroup, FormControl, Form } from 'react-bootstrap'
+import { Container, Card, Button, InputGroup, FormControl } from 'react-bootstrap'
 import { FaSearchLocation } from 'react-icons/fa'
 
 export default function Search() {
